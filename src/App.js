@@ -9,10 +9,10 @@ import TodoWithKeyUnique from './components/TodoWithKeyUnique'
 function App() {
     return (
         <div>
-            {/* <Todo /> */}
-            {/* <TodoWithCheckboxes /> */}
-            {/* <TodoRendered /> */}
-            {/* <TodoWithKey /> */}
+            {/* <Todo />
+            <TodoWithCheckboxes />
+            <TodoRendered />
+            <TodoWithKey /> */}
             <TodoWithKeyUnique />
         </div>
     )
