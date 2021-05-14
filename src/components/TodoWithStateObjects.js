@@ -20,7 +20,7 @@ export default function TodoWithStateObjects() {
         todos.map((todo, index) => {
           return (
             <li key={index}>
-              <h3>{todo.title}<span><input type="checkbox" onChange={() => toggleComplete(index)} checked={todo.completed} /></span></h3>
+              <h3>{todo.title}<span><input type="checkbox" onChange={() => toggleComplete(index)} /></span></h3>
             </li>
           )
         })
